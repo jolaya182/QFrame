@@ -1,0 +1,38 @@
+{
+  "name": "qframe",
+  "version": "1.0.0",
+  "description": "sqliteNodeApp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --debug src/. ",
+    "lintFix": "eslint --debug src/. --fix",
+    "prettycheck": "prettier  --check src/components/App.jsx",
+    "pretty": "prettier src/** --write --only-changed ",
+    "prettystage": "pretty-quick --staged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jolaya182/QFrame.git"
+  },
+  "author": "javier o",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jest": "^23.6.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.18.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "prettier": "^1.19.1",
+    "sqlite3": "^4.1.1"
+  },
+  "bugs": {
+    "url": "https://github.com/jolaya182/QFrame/issues"
+  },
+  "homepage": "https://github.com/jolaya182/QFrame#readme"
+}
