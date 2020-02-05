@@ -17,4 +17,4 @@ or
 
 to install type : `npm i`
 
-run server: nodemon index.js
+run server: `nodemon index.js`
