@@ -11,7 +11,7 @@ open a terminal or command prompt application on your computer and type: `git cl
 
 go to the `src` folder
 
-run npx: npx nodemon index.js
+run npx: `npx nodemon index.js`
 
 or
 
